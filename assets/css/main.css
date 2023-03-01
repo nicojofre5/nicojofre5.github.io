@@ -180,6 +180,7 @@ ul{
     background: url(https://i0.wp.com/gdcindia.co.in/wp-content/uploads/2019/03/contact-us-background.jpg?ssl=1);
     background-size: cover;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100%;
 }
 #Contact>h3{
     color: white;
@@ -203,7 +204,7 @@ label{
 input{
     width: 100%;
 }
-article{
+#contGralC{
     display: flex;
     justify-content: center;   
 }
