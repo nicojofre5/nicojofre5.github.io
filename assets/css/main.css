@@ -7,12 +7,12 @@
 /*Comienzo de header*/
 header{
     background-color: rgb(21, 21, 21);
+  
     
 }
 ul>li{
     display: inline-block;
     padding: 10px 7px;
- 
     font-size: 20px;
 }
 li>a{
@@ -27,7 +27,8 @@ ul>li:hover{
     transition: 1.2s;  
 }
 ul{
-    text-align: center;    
+    text-align: center; 
+     
 }
 #fotoPerfil>img{
     width:120px;
@@ -45,7 +46,8 @@ ul{
 }
 .nav-bar{
     background-color: rgb(41, 39, 39);
-    box-shadow: 12px 5px rgb(164, 162, 162);
+    
+    
 }
 .rrssh>.fa-whatsapp{
     color:rgb(5, 167, 8);
@@ -61,6 +63,8 @@ ul{
 }
 /*Comienza main - #Home*/
 #Home{
+    box-shadow: 0px 0px 14px 0px rgba(174, 166, 166, 0.429);
+
     min-height: 80vh;
     background-image: url(/assets/img/fondohome.jpg);
     background-repeat: no-repeat;
@@ -92,4 +96,19 @@ ul{
 .btn-Contact:hover{
     background: radial-gradient(circle, rgb(35, 35, 35) 0%, rgb(117, 117, 118) 6%, rgba(32,32,32,1) 35%, rgb(91, 88, 88) 79%);
    
+}
+/*Comienzan proyectos*/
+#Proyectos>h3{
+    font-size: 30px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.card>img{
+    width: 240px;
+    padding: 5px;
+    margin: 10px;
 }
