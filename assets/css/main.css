@@ -14,6 +14,7 @@ ul>li{
     display: inline-block;
     padding: 10px 7px;
     font-size: 20px;
+    font-family: 'Tilt Prism', cursive;
 }
 li>a{
     list-style: none;
@@ -70,11 +71,14 @@ ul{
     background-size: cover;
     padding: 50px;
     text-align: center;
+    font-family: 'Righteous', cursive;
+
 }
 #Home>h2{
     color: white;
     font-size: 50px;
     padding: 95px 0px 0px;
+    
 }
 .subtitle>p{
     color: white;
@@ -98,10 +102,11 @@ ul{
 }
 /*Comienzan proyectos*/
 #Proyectos>h3,#About>h3,#Contact>h3{
-    font-size: 35px;
+    font-size: 45px;
     color: lightsalmon;
     padding: 30px;
-    font-family: sans-serif;
+    font-family: 'Righteous', cursive;
+    letter-spacing: 4px;
 }
 #Proyectos{
     padding: 50px;
@@ -172,7 +177,8 @@ ul{
 }
 #Contact>h3{
     color: white;
-    -webkit-text-stroke:3px rgba(138, 93, 90, 0.518);
+    -webkit-text-stroke:1px rgba(221, 220, 220, 0.749);
+ 
 }
 .contContact{
     display: inline-block;
