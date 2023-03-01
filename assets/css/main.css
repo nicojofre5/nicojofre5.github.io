@@ -3,15 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+/*Comienzo de header*/
 header{
     background-color: rgb(48, 47, 47);
 }
 ul>li{
     display: inline-block;
-    padding: 10px;
+    padding: 10px 8px;
+    font-size: 20px;
 }
 li>a{
     text-decoration: none;
+    color: white;
 }
 
 ul{
@@ -21,5 +24,32 @@ ul{
     width:120px;
     border-radius: 60px;
     border: 2px solid black;
-    margin: 14px 0px 20px 30px;
+    margin: 14px 0px 0px 40px;
+}
+.contGralHead{
+    display: flex;
+    justify-content: space-between;
+}
+.contGralHead>.rrss{
+    font-size: 24px;
+    padding: 12px 8px 0px 0px;
+}
+.nav-bar{
+    background-color: rgb(77, 74, 74);
+}
+.rrssh>.fa-whatsapp{
+    color:rgb(5, 167, 8);
+}
+.fa-brands{
+    padding: 0px 3px;
+}
+.rrssh>.fa-github{
+    color: whitesmoke;
+}
+.rrssh>.fa-twitter{
+    color: rgb(2, 114, 218);
+}
+/*Comienza main - #Home*/
+#Home{
+    min-height: 80vh;
 }
