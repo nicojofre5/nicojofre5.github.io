@@ -5,11 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Press+Start+2P&family=Righteous&family=Smokum&family=Tilt+Prism&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://kit.fontawesome.com/63586a8960.css" crossorigin="anonymous">
     <title>Portfolio | Salvador Watts</title>
 </head>
 <body>
     <header>
+        <div class="contGralHead">
+            <div class="contPerfil">
+                <figure id="fotoPerfil">
+                    <img src="assets/img/fotoperfil.jpg" alt="">
+                </figure>
+            </div>
+            <div class="rrss">
+                <a href="#" class="rrssh"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="#" class="rrssh"><i class="fa-brands fa-github"></i></a>
+                <a href="#" class="rrssh"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
         <nav class="nav-bar">
             <ul>
                 <li><a href="#Home">Home</a></li>
@@ -18,67 +33,59 @@
                 <li><a href="#Contact">Contacto</a></li>
             </ul> 
         </nav>
-        <div class="contPerfil">
-            <div class="fotoPerfil">
-                <figure>
-                    <img src="assets/img/fotoperfil.jpg" alt="">
-                </figure>
-            </div>
-            <div class="rrss">
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-            </div>
-        </div>
         
     </header>
     
     <main>
         <section id="Home">
-            <h2>Hi I'm Salvador</h2>
-            <div class="">
-                <p>- I'm learning HTML & CSS</p>
-                <a href="" class="btn-Contact">Contáctame</a>
+            <h2>Hola, soy Salvador</h2>
+            <div class="subtitle">
+                <p>- Estoy aprendiendo HTML & CSS</p>
+                <a href="#Contact" class="btn-Contact">Contáctame</a>
             </div>
         </section>
         
         <section id="Proyectos">
             <h3>Mis proyectos</h3>
             <div class="contProyectos">
-                <div class="card">
-                    <img src="https://pbs.twimg.com/media/D-odKzlX4AAGnzp.jpg" alt="">
-                    <div class="card-body">
-                    
+                <div class="row">
+                    <div class="card">
+                        <img src="https://pbs.twimg.com/media/D-odKzlX4AAGnzp.jpg" alt="">
+                        <div class="card-body">
+                            <h4>Próximamente</h4>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="https://pbs.twimg.com/media/D-odKzlX4AAGnzp.jpg" alt="">
+                        <div class="card-body">
+                            <h4>Próximamente</h4>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="https://pbs.twimg.com/media/D-odKzlX4AAGnzp.jpg" alt="">
+                        <div class="card-body">
+                            <h4>Próximamente</h4>
+                        </div>
                     </div>
                 </div>
-                <div class="card">
-                    <img src="https://pbs.twimg.com/media/D-odKzlX4AAGnzp.jpg" alt="">
-                    <div class="card-body">
-                    
+                <div class="row">
+                    <div class="card">
+                        <img src="https://pbs.twimg.com/media/D-odKzlX4AAGnzp.jpg" alt="">
+                        <div class="card-body">
+                            <h4>Próximamente</h4>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
-                    <img src="https://pbs.twimg.com/media/D-odKzlX4AAGnzp.jpg" alt="">
-                    <div class="card-body">
-                    
+                    <div class="card">
+                        <img src="https://pbs.twimg.com/media/D-odKzlX4AAGnzp.jpg" alt="">
+                        <div class="card-body">
+                            <h4>Próximamente</h4>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
-                    <img src="https://pbs.twimg.com/media/D-odKzlX4AAGnzp.jpg" alt="">
-                    <div class="card-body">
-                    
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="https://pbs.twimg.com/media/D-odKzlX4AAGnzp.jpg" alt="">
-                    <div class="card-body">
-                    
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="https://pbs.twimg.com/media/D-odKzlX4AAGnzp.jpg" alt="">
-                    <div class="card-body">
-                    
+                    <div class="card">
+                        <img src="https://pbs.twimg.com/media/D-odKzlX4AAGnzp.jpg" alt="">
+                        <div class="card-body">
+                            <h4>Próximamente</h4>   
+                        </div>
                     </div>
                 </div>
             </div>
@@ -105,9 +112,6 @@
                         Doloremque at, deleniti in sunt similique quisquam.</p>
                     
                 </div>
-                <div class="skills">
-                    
-                </div>
             </div>
 
         </section>
@@ -116,30 +120,36 @@
 
         <section id="Contact">
             <h3>¡Trabajemos juntos!</h3>
-            <div class="contContact">
-                <form action="" method="post">
-                    <fieldset>
-                        <label for="name">Nombre y apellido</label>
-                        <input type="text" name="name" id="">
-                    </fieldset>
-                    <fieldset>
-                        <label for="email">email</label>
-                        <input type="email" name="email" id="">                    
-                    </fieldset>
-                    <fieldset>
-                        <label for="name">Comentarios</label>
-                        <textarea name="" id="" cols="40" rows="10"></textarea>
-    
-                        
-                    </fieldset>
-                </form>
-            </div>
+            <article>
+                <div class="contContact">
+                    <form action="" method="post">
+                        <fieldset>
+                            <label for="name">Nombre y apellido</label>
+                            <input type="text" name="name" id="">
+                        </fieldset>
+                        <fieldset>
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="">                    
+                        </fieldset>
+                        <fieldset>
+                            <label for="name">Comentarios</label>
+                            <textarea name="" id="" cols="30" rows="10"></textarea>
+                                                    
+                        </fieldset>
+                        <div class="btn-Submit">
+                            <button>Enviar</button>
+                         </div>   
+                    </form>
+                </div>
+
+            </article>
+            
         </section>
 
     </main>
 
     <footer>
-        <h4>Sitio diseñado por <a href="">@Nicolas Jofre</a></h4>
+        <h4>Sitio diseñado por <a class="redPersonal" href="https://github.com/nicojofre5" target="_blank">@Nicolas Jofre</a></h4>
         <p>&copy; Nicolas Jofre</p>
 
     </footer>
