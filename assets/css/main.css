@@ -7,12 +7,19 @@ header{
     background-color: rgb(48, 47, 47);
 }
 ul>li{
-    text-decoration: none;
-    
     display: inline-block;
-    margin:0 auto;
+    padding: 10px;
+}
+li>a{
+    text-decoration: none;
 }
 
 ul{
     text-align: center;    
+}
+#fotoPerfil>img{
+    width:120px;
+    border-radius: 60px;
+    border: 2px solid black;
+    margin: 14px 0px 20px 30px;
 }
