@@ -5,7 +5,7 @@
     
 }
 /*Comienzo de header*/
-header{
+header,footer{
     background-color: rgb(21, 21, 21);
   
     
@@ -190,6 +190,10 @@ label{
 input{
     width: 100%;
 }
+article{
+    display: flex;
+    justify-content: center;   
+}
 .btn-Submit{
     text-align: center;
 }
@@ -205,10 +209,18 @@ input{
     background-color: grey;
     cursor: pointer;
 }
-article{
-    display: flex;
-    justify-content: center;   
-}
 
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    color: white;
+}
+.redPersonal{
+    color: white;
+}
+.redPersonal:hover{
+    color: rgb(199, 67, 67);
+}
 
 
